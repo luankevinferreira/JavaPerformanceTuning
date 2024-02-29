@@ -2,7 +2,7 @@ repo_name: luankevinferreira/JavaPerformanceTuning
 report_id: 8a5329487fcbc501aa28e4daba8fdd89
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-24T00:04:54+00:00'
+timestamp: '2024-02-29T19:36:51+00:00'
 requested_by: ScottOaks
 provider: github
 branch: master
@@ -54,7 +54,7 @@ tools:
   last_updated_by: Scott Oaks
   last_updated_on: 2014-04-16 02:08:13.000000000 Z
 - name: Apache Maven
-  description: 'Apache build manager for Java projects. '
+  description: Apache build manager for Java projects.
   website_url: http://maven.apache.org/
   license: Apache-2.0
   open_source: true
@@ -138,6 +138,19 @@ tools:
   last_updated_by: Scott Oaks
   last_updated_on: 2019-12-31 21:53:42.000000000 Z
   vulnerabilities:
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2019-20330
+    cve_url: https://github.com/advisories/GHSA-gww7-p5w4-wrfv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.2
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9546
+    cve_url: https://github.com/advisories/GHSA-5p34-5m6p-p58g
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.4
   - name: Polymorphic Typing in FasterXML jackson-databind
     cve_id: CVE-2019-16942
     cve_url: https://github.com/advisories/GHSA-mx7p-6679-8g3q
@@ -150,49 +163,6 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 2.9.10.3
-  - name: jackson-databind mishandles the interaction between serialization gadgets
-      and typing
-    cve_id: CVE-2020-9546
-    cve_url: https://github.com/advisories/GHSA-5p34-5m6p-p58g
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.10.4
-  - name: Deserialization of Untrusted Data in jackson-databind
-    cve_id: CVE-2019-20330
-    cve_url: https://github.com/advisories/GHSA-gww7-p5w4-wrfv
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.9.10.2
-  - name: Deeply nested json in jackson-databind
-    cve_id: CVE-2020-36518
-    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
-    detected_date: Mar 23
-    severity: high
-    first_patched: 2.12.6.1
-  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
-    cve_id: CVE-2020-10650
-    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
-    detected_date: Jul 16
-    severity: high
-    first_patched: 2.9.10.4
-  - name: Deserialization of untrusted data in Jackson Databind
-    cve_id: CVE-2020-14195
-    cve_url: https://github.com/advisories/GHSA-mc6h-4qgp-37qh
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.10.5
-  - name: Deserialization of untrusted data in Jackson Databind
-    cve_id: CVE-2020-14061
-    cve_url: https://github.com/advisories/GHSA-c2q3-4qrh-fm48
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.10.5
-  - name: Deserialization of untrusted data in Jackson Databind
-    cve_id: CVE-2020-14062
-    cve_url: https://github.com/advisories/GHSA-c265-37vj-cwcc
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.10.5
   - name: Deserialization of untrusted data in Jackson Databind
     cve_id: CVE-2020-14060
     cve_url: https://github.com/advisories/GHSA-j823-4qch-3rgm
@@ -241,18 +211,6 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 2.9.10.4
-  - name: Unsafe Deserialization in jackson-databind
-    cve_id: CVE-2020-24750
-    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
-    detected_date: Jan 28
-    severity: high
-    first_patched: 2.9.10.6
-  - name: XML External Entity (XXE) Injection in Jackson Databind
-    cve_id: CVE-2020-25649
-    cve_url: https://github.com/advisories/GHSA-288c-cq4h-88gq
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.9.10.7
   - name: jackson-databind mishandles the interaction between serialization gadgets
       and typing
     cve_id: CVE-2020-11620
@@ -260,6 +218,30 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 2.9.10.4
+  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+    cve_id: CVE-2020-10650
+    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
+    detected_date: Jul 16
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-24750
+    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: XML External Entity (XXE) Injection in Jackson Databind
+    cve_id: CVE-2020-25649
+    cve_url: https://github.com/advisories/GHSA-288c-cq4h-88gq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.7
   - name: Serialization gadget exploit in jackson-databind
     cve_id: CVE-2020-35728
     cve_url: https://github.com/advisories/GHSA-5r5r-6hpj-8gg9
@@ -291,18 +273,36 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 2.9.10.4
-  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
-    cve_id: CVE-2022-42004
-    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
-    detected_date: Oct 5
-    severity: high
-    first_patched: 2.12.7.1
   - name: Uncontrolled Resource Consumption in Jackson-databind
     cve_id: CVE-2022-42003
     cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
     detected_date: Oct 5
     severity: high
     first_patched: 2.12.7.1
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.12.6.1
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14195
+    cve_url: https://github.com/advisories/GHSA-mc6h-4qgp-37qh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14061
+    cve_url: https://github.com/advisories/GHSA-c2q3-4qrh-fm48
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14062
+    cve_url: https://github.com/advisories/GHSA-c265-37vj-cwcc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
 - name: javax.activation:javax.activation-api
   description: JavaBeans Activation Framework distribution
   version: 1.2.0
