@@ -3,13 +3,13 @@
 ## Tech Stack
 luankevinferreira/JavaPerformanceTuning is built on the following main stack:
 
-- [Java](https://www.java.com) – Languages
 - [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
-- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
-- [GlassFish](https://glassfish.java.net) – Web Servers
+- [Java](https://www.java.com) – Languages
 - [Java EE](http://www.oracle.com/technetwork/java/javaee/overview/index.html) – Languages
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [GlassFish](https://glassfish.java.net) – Web Servers
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -19,13 +19,13 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 luankevinferreira/JavaPerformanceTuning is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='C lang'/> [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg' alt='GlassFish'/> [GlassFish](https://glassfish.java.net) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/4522/652rxwyK_400x400.png' alt='Java EE'/> [Java EE](http://www.oracle.com/technetwork/java/javaee/overview/index.html) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg' alt='GlassFish'/> [GlassFish](https://glassfish.java.net) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [luankevinferreira/JavaPerformanceTuning](https://github.com/luankevinferreira/JavaPerformanceTuning)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|22<br/>Tools used|01/24/24 <br/>Report generated|
+|22<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -135,7 +135,7 @@ Full tech stack [here](/techstack.md)
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[com.fasterxml.jackson.core:jackson-core](https://github.com/FasterXML/jackson-core)|v2.9.9|12/31/19|Scott Oaks |Apache-2.0|N/A|
-|[com.fasterxml.jackson.core:jackson-databind](http://github.com/FasterXML/jackson)|v2.9.10|12/31/19|Scott Oaks |Apache-2.0|[CVE-2019-16942](https://github.com/advisories/GHSA-mx7p-6679-8g3q) (Critical)<br/>[CVE-2020-8840](https://github.com/advisories/GHSA-4w82-r329-3q67) (Critical)<br/>[CVE-2020-9546](https://github.com/advisories/GHSA-5p34-5m6p-p58g) (Critical)<br/>[CVE-2019-20330](https://github.com/advisories/GHSA-gww7-p5w4-wrfv) (Critical)<br/>[CVE-2020-36518](https://github.com/advisories/GHSA-57j2-w4cx-62h2) (High)<br/>[CVE-2020-10650](https://github.com/advisories/GHSA-rpr3-cw39-3pxh) (High)<br/>[CVE-2020-14195](https://github.com/advisories/GHSA-mc6h-4qgp-37qh) (High)<br/>[CVE-2020-14061](https://github.com/advisories/GHSA-c2q3-4qrh-fm48) (High)<br/>[CVE-2020-14062](https://github.com/advisories/GHSA-c265-37vj-cwcc) (High)<br/>[CVE-2020-14060](https://github.com/advisories/GHSA-j823-4qch-3rgm) (High)<br/>[CVE-2020-11112](https://github.com/advisories/GHSA-58pp-9c76-5625) (High)<br/>[CVE-2020-11619](https://github.com/advisories/GHSA-27xj-rqx5-2255) (High)<br/>[CVE-2020-11113](https://github.com/advisories/GHSA-9vvp-fxw6-jcxr) (High)<br/>[CVE-2020-11111](https://github.com/advisories/GHSA-v3xw-c963-f5hc) (High)<br/>[CVE-2020-10968](https://github.com/advisories/GHSA-rf6r-2c4q-2vwg) (High)<br/>[CVE-2020-10969](https://github.com/advisories/GHSA-758m-v56v-grj4) (High)<br/>[CVE-2020-24750](https://github.com/advisories/GHSA-qjw2-hr98-qgfh) (High)<br/>[CVE-2020-25649](https://github.com/advisories/GHSA-288c-cq4h-88gq) (High)<br/>[CVE-2020-11620](https://github.com/advisories/GHSA-h4rc-386g-6m85) (High)<br/>[CVE-2020-35728](https://github.com/advisories/GHSA-5r5r-6hpj-8gg9) (High)<br/>[CVE-2020-24616](https://github.com/advisories/GHSA-h3cw-g4mq-c5x2) (High)<br/>[CVE-2020-35490](https://github.com/advisories/GHSA-wh8g-3j2c-rqj5) (High)<br/>[CVE-2020-35491](https://github.com/advisories/GHSA-r3gr-cxrf-hg25) (High)<br/>[CVE-2020-10672](https://github.com/advisories/GHSA-95cm-88f5-f2c7) (High)<br/>[CVE-2022-42004](https://github.com/advisories/GHSA-rgv9-q543-rqg4) (High)<br/>[CVE-2022-42003](https://github.com/advisories/GHSA-jjjh-jjxp-wpff) (High)|
+|[com.fasterxml.jackson.core:jackson-databind](http://github.com/FasterXML/jackson)|v2.9.10|12/31/19|Scott Oaks |Apache-2.0|[CVE-2019-20330](https://github.com/advisories/GHSA-gww7-p5w4-wrfv) (Critical)<br/>[CVE-2020-9546](https://github.com/advisories/GHSA-5p34-5m6p-p58g) (Critical)<br/>[CVE-2019-16942](https://github.com/advisories/GHSA-mx7p-6679-8g3q) (Critical)<br/>[CVE-2020-8840](https://github.com/advisories/GHSA-4w82-r329-3q67) (Critical)<br/>[CVE-2020-14060](https://github.com/advisories/GHSA-j823-4qch-3rgm) (High)<br/>[CVE-2020-11112](https://github.com/advisories/GHSA-58pp-9c76-5625) (High)<br/>[CVE-2020-11619](https://github.com/advisories/GHSA-27xj-rqx5-2255) (High)<br/>[CVE-2020-11113](https://github.com/advisories/GHSA-9vvp-fxw6-jcxr) (High)<br/>[CVE-2020-11111](https://github.com/advisories/GHSA-v3xw-c963-f5hc) (High)<br/>[CVE-2020-10968](https://github.com/advisories/GHSA-rf6r-2c4q-2vwg) (High)<br/>[CVE-2020-10969](https://github.com/advisories/GHSA-758m-v56v-grj4) (High)<br/>[CVE-2020-11620](https://github.com/advisories/GHSA-h4rc-386g-6m85) (High)<br/>[CVE-2020-10650](https://github.com/advisories/GHSA-rpr3-cw39-3pxh) (High)<br/>[CVE-2020-24750](https://github.com/advisories/GHSA-qjw2-hr98-qgfh) (High)<br/>[CVE-2022-42004](https://github.com/advisories/GHSA-rgv9-q543-rqg4) (High)<br/>[CVE-2020-25649](https://github.com/advisories/GHSA-288c-cq4h-88gq) (High)<br/>[CVE-2020-35728](https://github.com/advisories/GHSA-5r5r-6hpj-8gg9) (High)<br/>[CVE-2020-24616](https://github.com/advisories/GHSA-h3cw-g4mq-c5x2) (High)<br/>[CVE-2020-35490](https://github.com/advisories/GHSA-wh8g-3j2c-rqj5) (High)<br/>[CVE-2020-35491](https://github.com/advisories/GHSA-r3gr-cxrf-hg25) (High)<br/>[CVE-2020-10672](https://github.com/advisories/GHSA-95cm-88f5-f2c7) (High)<br/>[CVE-2022-42003](https://github.com/advisories/GHSA-jjjh-jjxp-wpff) (High)<br/>[CVE-2020-36518](https://github.com/advisories/GHSA-57j2-w4cx-62h2) (High)<br/>[CVE-2020-14195](https://github.com/advisories/GHSA-mc6h-4qgp-37qh) (High)<br/>[CVE-2020-14061](https://github.com/advisories/GHSA-c2q3-4qrh-fm48) (High)<br/>[CVE-2020-14062](https://github.com/advisories/GHSA-c265-37vj-cwcc) (High)|
 |[javax.activation:javax.activation-api](http://java.net/)|v1.2.0|12/31/19|Scott Oaks |BSD-3-Clause|N/A|
 |[javax.persistence:javax.persistence-api](https://github.com/javaee/jpa-spec)|v2.2|12/31/19|Scott Oaks |EPL-1.0,AAL|N/A|
 |[javax.xml.stream:stax-api]()|v1.0|12/31/19|Scott Oaks |CDDL-1.0|N/A|
